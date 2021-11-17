@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(255, 255, 255, 0.767);
+}
+
+.nav-bar {
+    margin: -8px -10px;
+    padding: 9px;
+    background-color: #7C3BFF;
+}
+
+.nav-date {
+    margin: -8px -10px;
+    padding: 5px;
+    height: 29px;
+    background-color: rgb(124, 59, 255);
+}
+
+.title {
+    color: white;
+}
+
+.nav-date-item-container {
+    height: 29px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-date-item {
+    border-right: 2px outset rgba(255, 255, 255, 0.486);
+    border-top: 0px transparent;
+    width: 2000px;
+    height: 33px;
+}
+
+.nav-date-item:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.705) 0%, rgb(124, 59, 255) 50%); 
+}
+
+.main {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.l-section {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: rgba(230, 230, 230, 0.788);
+    border-radius: 5px;
+}
+
+.new-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(187, 187, 187, 0.788);
+    border-right: 3px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+.input-project-name {
+    margin: 10px 10px;
+    width: 80%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+}
+
+.btn {
+    margin-right: 40px;
+    margin-left: 30px;
+    padding: 1px;
+    width: 200px;
+    height: 40px;
+    background-color: #23e764fa;
+    border-radius: 5px;
+    box-shadow: none;
+    color: white;
+    font-weight: bolder;
+    text-shadow: black;
+}
+
+.r-section {
+    width: max-content;
+    background-color: rgba(230, 230, 230, 0.788);
+}
