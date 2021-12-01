@@ -1,3 +1,5 @@
+import {submit} from './projectBtn'
+
 function elements() {
         
     const body = document.querySelector('body');
@@ -48,26 +50,28 @@ function elements() {
     container.appendChild(main);
     main.classList.add('main');
 
-
+    
 
 
     const lSection = document.createElement('div')
     main.appendChild(lSection);
     lSection.classList.add('l-section');
 
-    const newProject = document.createElement('div')
-    lSection.appendChild(newProject);
-    newProject.classList.add('new-project');
+    const newProjectCreate = document.createElement('div')
+    lSection.appendChild(newProjectCreate);
+    newProjectCreate.classList.add('new-project-create');
 
     const input = document.createElement('input');
-    newProject.appendChild(input);
+    newProjectCreate.appendChild(input);
     input.classList.add('input-project-name');
     input.placeholder = 'Enter the name of your project here'
 
     const button = document.createElement('button');
-    newProject.appendChild(button);
+    newProjectCreate.appendChild(button);
     button.classList.add('btn');
     button.innerText = 'Submit new project'
+
+    button.addEventListener('click', submit);
 
     const projectList = document.createElement('div');
     lSection.appendChild(projectList);

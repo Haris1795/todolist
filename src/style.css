@@ -1,5 +1,10 @@
 body {
     background-color: rgba(255, 255, 255, 0.767);
+    height: 100%;
+}
+
+.container {
+    height: 100%;
 }
 
 .nav-bar {
@@ -40,6 +45,7 @@ body {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 .l-section {
@@ -50,11 +56,26 @@ body {
     border-radius: 5px;
 }
 
-.new-project {
+.new-project-create {
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: rgba(187, 187, 187, 0.788);
+    border-right: 3px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.project-list {
+    height: 100%;
+    margin-top: 10px;
+}
+
+.new-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(187, 187, 187, 0.432);
     border-right: 3px solid rgba(0, 0, 0, 0.5);
     border-bottom: 3px solid rgba(0, 0, 0, 0.5);
 }
