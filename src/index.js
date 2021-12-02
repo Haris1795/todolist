@@ -1,4 +1,8 @@
-import {elements} from './DOMstuff.js';
+import {domElements} from './DOMstuff.js';
 import {submit} from './projectBtn'
 import './style.css';
-elements();
+
+
+domElements.createMainElement()
+domElements.createLeftSection()
+domElements.createNewProjectEntry()
